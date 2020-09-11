@@ -6,11 +6,36 @@
   height: 40vmin;
   pointer-events: none;
 }
+@media screen and (min-width: 767px) {
+  .tweets-style {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tweets-style {
+  position: relative;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.logo-img{
+  width: 200px;
+  position: relative;
+  margin-top: auto;
+  margin-left: auto;
+  max-height: 20%;
 }
 
 .App-header {
@@ -23,6 +48,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
 
 .App-link {
   color: #61dafb;
